@@ -73,3 +73,5 @@ gem 'solidus_static_content'
 gem 'bootstrap','~> 4.5.0'
 
 gem 'jquery-rails'
+
+gem 'dotenv-rails'
