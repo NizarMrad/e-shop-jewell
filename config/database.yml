@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: e_shop_jewell_production
-  username: e_shop_jewell
-  password: <%= ENV['E_SHOP_JEWELL_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
