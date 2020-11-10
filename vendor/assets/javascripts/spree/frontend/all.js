@@ -5,8 +5,11 @@
 // the compiled file.
 //
 //= require jquery
+//= require popper
+//= require bootstrap-sprockets
 //= require rails-ujs
 //= require spree/frontend
+//= require spree/frontend/carousel
 //= require_tree .
 //= require spree/frontend/solidus_paypal_commerce_platform
 //= require spree/frontend/solidus_starter_frontend
