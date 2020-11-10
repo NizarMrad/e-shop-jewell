@@ -1,6 +1,6 @@
 .product-card {
   &_image {
-    transition: transform .2s;
+    transition: transform 0.2s;
 
     img {
       width: 100%;
@@ -22,7 +22,7 @@
   }
 
   &_price {
-    color: $color_accent;
+    color: #8e6c4d;
     font-size: 1.3rem;
     font-weight: 700;
     margin-top: 1rem;

@@ -1,7 +1,14 @@
 <footer class="footer">
-  <p>
-    <%= t 'spree.powered_by' %> <%= link_to 'Solidus', 'http://solidus.io/' %>
-  </p>
-
-  <%= render 'spree/components/navigation/locale_selector' %>
+<div class="row">
+  <div class="col-3">  
+    <%= render 'spree/components/navigation/locale_selector' %>
+  </div>
+  <div class="col-3">test 1</div>
+  <div class="col-3">test 3</div>
+  <div class="col-3">test 3</div>
+  <div class="col-12">
+    <p>
+      <%= t 'spree.powered_by' %> <%= link_to 'Solidus', 'http://solidus.io/' %>
+    </p>
+  </div>
 </footer>

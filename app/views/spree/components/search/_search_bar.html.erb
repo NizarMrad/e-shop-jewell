@@ -19,18 +19,12 @@
       class: "#{base_class}__select"
     ) %>
   <% end %>
-
-  <input
-    name="keywords"
-    placeholder="Hoodie, mug, shirt..."
-    type="search"
-    class="<%= "#{base_class}__input" %>"
-  >
-
-  <button
-    type="submit"
-    class="<%= "#{base_class}__button" %>"
-  >
-    Search
-  </button>
+  <div class="container">
+    <input name="keywords"
+      placeholder="Bagues, Colliers..." 
+      type="search">
+    <div class="search"></div>
+  </div>
+ 
 <% end %>
+
